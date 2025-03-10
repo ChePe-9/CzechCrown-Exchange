@@ -2,7 +2,6 @@ import pytest
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import sessionmaker
 from app.database import Base, get_db
-from app.models import ReportResponse
 from app.api.reports import get_report
 from datetime import datetime, date
 import pytest_asyncio
